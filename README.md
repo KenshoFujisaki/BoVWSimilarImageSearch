@@ -1,0 +1,2 @@
+# BoVWSimilarImageSearch
+BoVWの手法を用いてSURF特徴量をヒストグラム化し，ヒストグラム交差により類似画像を検索します．
