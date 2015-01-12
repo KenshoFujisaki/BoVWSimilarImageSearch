@@ -68,8 +68,6 @@ def main():
             img = Image.open(filename)
             pos = (900*(p%5), 900*(p/5))
             canvas.paste(img, pos)
-            draw = ImageDraw.Draw(img)
-            draw.text(pos, 'Hello', fill='#000000')
             p += 1
         canvas.resize((4500/2, 1500/2))
         canvas.save("result.jpg", "JPEG")
